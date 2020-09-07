@@ -1,0 +1,50 @@
+{
+  "name": "fastify-api-demo",
+  "description": "Simple API demo built with Fastify.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": false,
+  "author": "Alex Devero (https://alexdevero.com)",
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "last 7 versions",
+      "ie >= 10"
+    ],
+    "development": [
+      "last 7 chrome versions",
+      "last 7 firefox versions",
+      "last 2 safari versions",
+      "ie >= 11"
+    ]
+  },
+  "scripts": {
+    "build": "echo 'empty build task'",
+    "start": "node server/server.js",
+    "nodemon": "nodemon server/server.js --watch server",
+    "test": "echo 'empty test test'"
+  },
+  "dependencies": {
+    "fastify": "^3.3.0",
+    "fastify-compress": "^3.3.0",
+    "fastify-cors": "^4.1.0",
+    "fastify-helmet": "^5.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.0.1",
+    "nodemon": "^2.0.4"
+  },
+  "main": "server/index.js",
+  "keywords": [
+    "fastify",
+    "server",
+    "api",
+    "nodejs"
+  ]
+}
