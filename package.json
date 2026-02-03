@@ -31,7 +31,7 @@
     "test": "echo 'empty test test'"
   },
   "dependencies": {
-    "fastify": "^3.3.0",
+    "fastify": "^5.7.3",
     "fastify-compress": "^3.3.0",
     "fastify-cors": "^4.1.0",
     "fastify-helmet": "^5.0.1"
